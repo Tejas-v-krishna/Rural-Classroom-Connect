@@ -1,16 +1,57 @@
-# React + Vite
+# Rural Classroom Connect
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Rural Classroom Connect is a web platform designed to bridge the gap in rural education. It leverages modern web technologies to connect classrooms, resources, and educators, fostering an environment where quality education transcends geographical barriers.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   **Modern User Interface**: Built with **React** and styled using **Tailwind CSS** for a responsive and accessible design.
+*   **Component Library**: Utilizes **Radix UI** primitives for robust and accessible UI components.
+*   **Client-Side Routing**: Seamless navigation provided by **React Router DOM**.
+*   **Data Fetching**: Efficient server state management using **TanStack Query**.
+*   **Date Management**: Integrated **date-fns** and **react-day-picker** for handling scheduling and calendars.
+*   **Notifications**: Toast notifications powered by **Sonner**.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+*   **Framework**: [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+*   **Styling**: [Tailwind CSS](https://tailwindcss.com/) + [Tailwind Merge](https://github.com/dcastil/tailwind-merge)
+*   **UI Components**: [Radix UI](https://www.radix-ui.com/) + [Lucide React](https://lucide.dev/) (Icons)
+*   **State Management**: [TanStack Query](https://tanstack.com/query/latest)
+*   **Routing**: [React Router](https://reactrouter.com/)
+*   **HTTP Client**: [Axios](https://axios-http.com/)
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/Tejas-v-krishna/rural-classroom-connect.git
+    cd rural-classroom-connect
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Run the development server**
+    ```bash
+    npm run dev
+    ```
+
+4.  **Open your browser**
+    Navigate to `http://localhost:5173` to view the application.
+
+## 📜 Scripts
+
+*   `npm run dev`: Starts the development server.
+*   `npm run build`: Builds the app for production.
+*   `npm run lint`: Runs ESLint to check for code quality issues.
+*   `npm run preview`: Locally previews the production build.
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## 📄 License
+
+This project is licensed under the MIT License.
